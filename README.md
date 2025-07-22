@@ -1,13 +1,48 @@
-# Leveraging-Earth-Observation-Data-for-Informed-Agricultural-Decision-Making
+# AgriSphere
 
-We developed AgriSphere - a web platform dedicated to facilitating crucial NASA geospatial data for agricultural workers. Incorporating GeoViews, MatPlotLib, HoloViews, and X-Array, we enabled the accessible visualization of .nc4 and .csv information files. Building on this goal of accessibility, we used OpenAI's GPT 3.5 Turbo Model and trained it on NASA datasets as well as our own website's architecture. To ensure the provision of accurate information, we accessed our NASA API key and built our Web Scraper to update our visualizations in accordance with the frequency of provision of NASA geospatial data.
+**Leveraging Earth Observation Data for Informed Agricultural Decision-Making**  
+_A submission for the 2024 NASA Space Apps Challenge (October 5–6, 2024)_
 
-Coding languages: Python, JavaScript, HTML, CSS
+AgriSphere is a full-stack web platform designed to empower farmers with access to NASA Earth observation data in an intuitive and actionable way. Our goal was to help agricultural communities facing water-related challenges—such as droughts, floods, and unpredictable weather—by translating complex satellite datasets into visual and conversational insights.
 
-Tools: VSCode, EarthData (GES DISC)
+This project was developed for the 2024 NASA Space Apps Challenge under the theme of using satellite and geospatial data to support water-focused agricultural decision-making.
 
-Frameworks: React, Node.JS, Flask, OpenAI's GPT 3.5 Turbo Model  (AgriAI chatbot)
+---
 
-Libraries: Matplotlin, Xarray, Requests, bs4 (BeautifulSoup), selenium, os, netCDF4, Pandas, GeoViews, Cartopy.crs, Holoviews, bokeh.io, Flask, Numpy, Chat-UI, Leaflet
+## Features
 
-API: Earth Observatory Natural Event Tracker
+- **Geospatial Visualization**  
+  Interactive visualization of `.nc4` and `.csv` datasets using tools like GeoViews, HoloViews, Xarray, and Cartopy.
+
+- **AgriAI Chatbot**  
+  A custom assistant powered by OpenAI’s GPT-3.5 Turbo, fine-tuned on NASA datasets and our project’s architecture to answer agricultural questions using Earth data.
+
+- **Automated NASA Data Updates**  
+  A custom-built web scraper integrates live updates from NASA APIs and the Earth Observatory Natural Event Tracker (EONET), ensuring data is refreshed in sync with NASA’s publication frequency.
+
+- **User-Friendly Interface**  
+  Built with React, Flask, and Node.js, our frontend presents clean, interactive maps and chat interfaces to support non-technical users.
+
+---
+
+## Technologies Used
+
+**Languages:** Python, JavaScript, HTML, CSS  
+**Frameworks:** Flask, React, Node.js  
+**Libraries and Tools:**
+- `Xarray`, `GeoViews`, `HoloViews`, `Cartopy`, `Matplotlib`, `Pandas`, `netCDF4`, `Bokeh`
+- `requests`, `BeautifulSoup`, `selenium`, `os`
+- OpenAI GPT-3.5 Turbo API
+- `Leaflet`, `Chat-UI`
+
+**APIs:**  
+- NASA EarthData (GES DISC)  
+- NASA Earth Observatory Natural Event Tracker (EONET)
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prasbb/Leveraging-Earth-Observation-Data-for-Informed-Agricultural-Decision-Making.git
